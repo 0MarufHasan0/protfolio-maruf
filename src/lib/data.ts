@@ -84,8 +84,8 @@ export const EDUCATION: EducationItem[] = [
     period: "2022 – Present",
     badge: "Undergraduate Degree",
     description:
-      "Pursuing Bachelor of Science degree while simultaneously building modern web applications, sharpening analytical thinking, and dedicating focused hours to frontend engineering.",
-    skills: ["Analytical Thinking", "Research", "Scientific Method"],
+      "Currently pursuing Bachelor of Science in Zoology, studying animal biology, biodiversity, ecology, genetics, and scientific research.",
+    skills: ["Animal Biology", "Ecology", "Biodiversity", "Genetics"],
     current: true,
   },
 ];

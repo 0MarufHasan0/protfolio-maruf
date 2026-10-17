@@ -57,7 +57,7 @@ A modern, high-performance, editorial brutalist portfolio website showcasing fea
 - **Complete Web Development Course** — Programming Hero (2024)
   - Full-stack web development, modern JavaScript, React, Next.js, and REST APIs.
 - **B.Sc. in Zoology** — National University, Bangladesh (2022 – Present)
-  - Scientific analysis, research methodology, and critical problem-solving alongside focused software engineering.
+  - Studying animal biology, ecology, biodiversity, genetics, and scientific research methodologies.
 
 ---
 
