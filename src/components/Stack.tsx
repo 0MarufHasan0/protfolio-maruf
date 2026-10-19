@@ -9,6 +9,7 @@ import {
   SiTailwindcss,
   SiNodedotjs,
   SiExpress,
+  SiMongodb,
   SiGit,
   SiGithub,
 } from "react-icons/si";
@@ -59,13 +60,31 @@ function renderSkillIcon(name: string) {
           strokeLinecap="round"
         >
           <line x1="4" y1="20" x2="20" y2="4" stroke="#FFFFFF" />
-          <line x1="14" y1="20" x2="20" y2="14" stroke="#00FF41" />
+          <line x1="14" y1="20" x2="20" y2="14" stroke="#C6FF00" />
         </svg>
       );
     case "Node.js":
       return <SiNodedotjs size={iconSize} color="#5FA04E" />;
     case "Express.js":
       return <SiExpress size={iconSize} color="#FFFFFF" />;
+    case "MongoDB":
+      return <SiMongodb size={iconSize} color="#47A248" />;
+    case "Better Auth":
+      return (
+        <svg
+          width={iconSize}
+          height={iconSize}
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#FF5722"
+          strokeWidth="2.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          <path d="M9 12l2 2 4-4" />
+        </svg>
+      );
     case "REST API":
       return (
         <svg
@@ -73,7 +92,7 @@ function renderSkillIcon(name: string) {
           height={iconSize}
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#00FF41"
+          stroke="#C6FF00"
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"

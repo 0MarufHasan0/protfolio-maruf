@@ -54,7 +54,7 @@ export default function SideMenu({ isOpen, onClose }: SideMenuProps) {
               <button
                 onClick={onClose}
                 aria-label="Close menu"
-                className="w-10 h-10 flex items-center justify-center text-[#D0D0D0] hover:text-[#00FF41] hover:border-[#00FF41] border border-transparent transition-colors focus:outline-none"
+                className="w-10 h-10 flex items-center justify-center text-[#D0D0D0] hover:text-[#C6FF00] hover:border-[#C6FF00] border border-transparent transition-colors focus:outline-none"
               >
                 <X className="w-6 h-6 stroke-[1.5]" />
               </button>
@@ -75,7 +75,7 @@ export default function SideMenu({ isOpen, onClose }: SideMenuProps) {
                         target={item.isDownload ? "_self" : "_blank"}
                         rel="noreferrer"
                         download={item.isDownload}
-                        className="group inline-flex items-center gap-1.5 text-sm text-[#D0D0D0] hover:text-[#00FF41] transition-colors"
+                        className="group inline-flex items-center gap-1.5 text-sm text-[#D0D0D0] hover:text-[#C6FF00] transition-colors"
                       >
                         <span>{item.name}</span>
                         {!item.isDownload && (
@@ -98,7 +98,7 @@ export default function SideMenu({ isOpen, onClose }: SideMenuProps) {
                       <a
                         href={item.href}
                         onClick={onClose}
-                        className="inline-flex items-center gap-3 text-sm text-[#FFFFFF] hover:text-[#00FF41] transition-colors"
+                        className="inline-flex items-center gap-3 text-sm text-[#FFFFFF] hover:text-[#C6FF00] transition-colors"
                       >
                         <span
                           className="w-2 h-2 rounded-full inline-block flex-shrink-0"
@@ -121,7 +121,7 @@ export default function SideMenu({ isOpen, onClose }: SideMenuProps) {
               </p>
               <a
                 href={`mailto:${PROFILE.email}`}
-                className="font-anton text-xl tracking-wide text-white hover:text-[#00FF41] transition-colors block break-all"
+                className="font-anton text-xl tracking-wide text-white hover:text-[#C6FF00] transition-colors block break-all"
               >
                 {PROFILE.email}
               </a>

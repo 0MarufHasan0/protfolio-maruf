@@ -41,7 +41,7 @@ export default function Hero() {
           >
             {/* Big Headline */}
             <div className="select-none tracking-tight">
-              <h1 className="font-anton text-[52px] sm:text-[76px] md:text-[96px] xl:text-[104px] leading-[0.9] text-[#00FF41] uppercase">
+              <h1 className="font-anton text-[52px] sm:text-[76px] md:text-[96px] xl:text-[104px] leading-[0.9] text-[#C6FF00] uppercase">
                 {PROFILE.rolePrefix}
               </h1>
               <h1 className="font-anton text-[52px] sm:text-[76px] md:text-[96px] xl:text-[104px] leading-[0.9] text-white uppercase ml-3 sm:ml-6 md:ml-12 mt-1">
@@ -57,8 +57,8 @@ export default function Hero() {
             {/* CTA & Status Indicator */}
             <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-5 sm:gap-6">
               <a
-                href="#projects"
-                className="inline-block bg-[#00FF41] text-[#212121] px-8 py-3.5 font-bold uppercase tracking-wider text-sm rounded-none hover:bg-white transition-colors duration-200 focus:outline-none"
+                href="#contact"
+                className="inline-block bg-[#C6FF00] text-[#212121] px-8 py-3.5 font-bold uppercase tracking-wider text-sm rounded-none hover:bg-white transition-colors duration-200 focus:outline-none"
               >
                 LET&apos;S TALK
               </a>
@@ -87,20 +87,20 @@ export default function Hero() {
                   alt={PROFILE.fullName}
                   fill
                   priority
-                  className="object-cover object-top filter grayscale contrast-110 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
+                  className="object-cover object-top group-hover:scale-105 transition-all duration-700 ease-out"
                   sizes="(max-width: 640px) 280px, (max-width: 1024px) 340px, 400px"
                 />
               </div>
 
               {/* L-shaped corner bracket: Top-Right only */}
               <div
-                className="absolute -top-[3px] -right-[3px] w-6 h-6 border-t-[3px] border-r-[3px] border-[#00FF41] pointer-events-none z-10"
+                className="absolute -top-[3px] -right-[3px] w-6 h-6 border-t-[3px] border-r-[3px] border-[#C6FF00] pointer-events-none z-10"
                 aria-hidden="true"
               />
 
               {/* L-shaped corner bracket: Bottom-Left only */}
               <div
-                className="absolute -bottom-[3px] -left-[3px] w-6 h-6 border-b-[3px] border-l-[3px] border-[#00FF41] pointer-events-none z-10"
+                className="absolute -bottom-[3px] -left-[3px] w-6 h-6 border-b-[3px] border-l-[3px] border-[#C6FF00] pointer-events-none z-10"
                 aria-hidden="true"
               />
             </div>
@@ -117,7 +117,7 @@ export default function Hero() {
           >
             {STATS.map((stat) => (
               <div key={stat.label} className="text-left">
-                <div className="font-anton text-3xl sm:text-4xl lg:text-5xl text-[#00FF41] leading-none tracking-wide">
+                <div className="font-anton text-3xl sm:text-4xl lg:text-5xl text-[#C6FF00] leading-none tracking-wide">
                   {stat.value}
                 </div>
                 <div className="text-xs sm:text-sm text-[#8C8C8C] mt-2 font-roboto font-normal leading-tight max-w-[120px]">

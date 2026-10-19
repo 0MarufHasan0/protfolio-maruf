@@ -57,11 +57,11 @@ export default function Education() {
               >
                 {/* L-shaped subtle hover corner brackets */}
                 <div
-                  className="absolute -top-[1px] -right-[1px] w-5 h-5 border-t-2 border-r-2 border-transparent group-hover:border-[#00FF41] transition-colors duration-300 pointer-events-none"
+                  className="absolute -top-[1px] -right-[1px] w-5 h-5 border-t-2 border-r-2 border-transparent group-hover:border-[#C6FF00] transition-colors duration-300 pointer-events-none"
                   aria-hidden="true"
                 />
                 <div
-                  className="absolute -bottom-[1px] -left-[1px] w-5 h-5 border-b-2 border-l-2 border-transparent group-hover:border-[#00FF41] transition-colors duration-300 pointer-events-none"
+                  className="absolute -bottom-[1px] -left-[1px] w-5 h-5 border-b-2 border-l-2 border-transparent group-hover:border-[#C6FF00] transition-colors duration-300 pointer-events-none"
                   aria-hidden="true"
                 />
 
@@ -80,7 +80,7 @@ export default function Education() {
                     {/* Period with Calendar & Pulse */}
                     <div className="inline-flex items-center gap-2 text-xs font-mono px-3 py-1 border border-[#3A3A3A] bg-[#212121] text-[#D0D0D0]">
                       {item.current ? (
-                        <span className="w-2 h-2 rounded-full bg-[#00FF41] animate-pulse inline-block" />
+                        <span className="w-2 h-2 rounded-full bg-[#C6FF00] animate-pulse inline-block" />
                       ) : (
                         <Calendar className="w-3.5 h-3.5 text-[#8C8C8C]" />
                       )}
@@ -89,12 +89,12 @@ export default function Education() {
                   </div>
 
                   {/* Degree / Course Title */}
-                  <h4 className="font-anton text-2xl sm:text-3xl md:text-4xl text-white group-hover:text-[#00FF41] transition-colors duration-200 uppercase tracking-wide leading-tight mt-6 mb-3">
+                  <h4 className="font-anton text-2xl sm:text-3xl md:text-4xl text-white group-hover:text-[#C6FF00] transition-colors duration-200 uppercase tracking-wide leading-tight mt-6 mb-3">
                     {item.degree}
                   </h4>
 
                   {/* Institution */}
-                  <div className="flex items-center gap-2 text-sm sm:text-base text-[#00FF41] font-mono tracking-wide mb-4">
+                  <div className="flex items-center gap-2 text-sm sm:text-base text-[#C6FF00] font-mono tracking-wide mb-4">
                     {isCertification ? (
                       <Award className="w-4 h-4 flex-shrink-0" />
                     ) : (
@@ -115,7 +115,7 @@ export default function Education() {
                     {item.skills.map((skill) => (
                       <span
                         key={skill}
-                        className="text-xs font-mono text-[#8C8C8C] bg-[#1E1E1E] px-2.5 py-1 border border-[#3A3A3A] group-hover:border-[#00FF41]/40 group-hover:text-[#D0D0D0] transition-colors"
+                        className="text-xs font-mono text-[#8C8C8C] bg-[#1E1E1E] px-2.5 py-1 border border-[#3A3A3A] group-hover:border-[#C6FF00]/40 group-hover:text-[#D0D0D0] transition-colors"
                       >
                         {skill}
                       </span>

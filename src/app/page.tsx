@@ -8,11 +8,12 @@ import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
 import ScrollProgress from "@/components/ScrollProgress";
+import EasyTouch from "@/components/EasyTouch";
 
 export default function Home() {
   return (
     <SmoothScroll>
-      <div className="relative min-h-screen bg-[#212121] text-[#D0D0D0] selection:bg-[#00FF41] selection:text-[#212121]">
+      <div className="relative min-h-screen bg-[#212121] text-[#D0D0D0] selection:bg-[#C6FF00] selection:text-[#212121]">
         {/* Animated Top Scroll Progress Bar */}
         <ScrollProgress />
 
@@ -33,6 +34,9 @@ export default function Home() {
 
         {/* Footer Section with Live GitHub Stats & Left Fixed Email */}
         <Footer />
+
+        {/* Floating Easy Touch "LET'S TALK" Quick Contact (Mobile, Tablet, Desktop) */}
+        <EasyTouch />
       </div>
     </SmoothScroll>
   );

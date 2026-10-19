@@ -20,7 +20,7 @@ export default function Navbar() {
       }
 
       // Scroll-spy logic for active section
-      const sections = ["home", "about", "skills", "projects", "education"];
+      const sections = ["home", "about", "skills", "projects", "education", "contact"];
       const scrollPos = window.scrollY + 120;
 
       for (let i = sections.length - 1; i >= 0; i--) {
@@ -53,10 +53,10 @@ export default function Navbar() {
             href="#home"
             className="flex items-center gap-2 group select-none focus:outline-none"
           >
-            <span className="font-anton text-[22px] tracking-wider text-white group-hover:text-[#00FF41] transition-colors">
+            <span className="font-anton text-[22px] tracking-wider text-white group-hover:text-[#C6FF00] transition-colors">
               {PROFILE.name}
             </span>
-            <span className="w-2.5 h-2.5 bg-[#00FF41] inline-block mb-1" />
+            <span className="w-2.5 h-2.5 bg-[#C6FF00] inline-block mb-1" />
           </a>
 
           {/* Right: Nav Links + CV Button + Hamburger */}
@@ -73,13 +73,13 @@ export default function Navbar() {
                     href={link.href}
                     className={`relative text-sm tracking-wide transition-colors py-1 ${
                       isActive
-                        ? "text-[#00FF41] font-medium"
+                        ? "text-[#C6FF00] font-medium"
                         : "text-[#D0D0D0] hover:text-white"
                     }`}
                   >
                     {link.name}
                     {isActive && (
-                      <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-[#00FF41]" />
+                      <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-[#C6FF00]" />
                     )}
                   </a>
                 );
@@ -90,7 +90,7 @@ export default function Navbar() {
             <a
               href="/cv.pdf"
               download
-              className="inline-flex items-center gap-2 px-4 py-2 border border-[#00FF41] text-[#00FF41] hover:bg-[#00FF41] hover:text-[#212121] transition-all text-xs font-mono font-semibold tracking-wider rounded-none uppercase select-none focus:outline-none"
+              className="inline-flex items-center gap-2 px-4 py-2 border border-[#C6FF00] text-[#C6FF00] hover:bg-[#C6FF00] hover:text-[#212121] transition-all text-xs font-mono font-semibold tracking-wider rounded-none uppercase select-none focus:outline-none"
             >
               <Download className="w-3.5 h-3.5 stroke-[2.2]" />
               <span>CV</span>
@@ -102,8 +102,8 @@ export default function Navbar() {
               aria-label="Open navigation menu"
               className="md:hidden w-10 h-10 flex flex-col items-center justify-center gap-1.5 p-2 group focus:outline-none border border-transparent hover:border-[#3A3A3A] transition-colors"
             >
-              <span className="w-6 h-[1.5px] bg-[#FFFFFF] group-hover:bg-[#00FF41] transition-colors" />
-              <span className="w-4 h-[1.5px] bg-[#FFFFFF] group-hover:bg-[#00FF41] group-hover:w-6 transition-all" />
+              <span className="w-6 h-[1.5px] bg-[#FFFFFF] group-hover:bg-[#C6FF00] transition-colors" />
+              <span className="w-4 h-[1.5px] bg-[#FFFFFF] group-hover:bg-[#C6FF00] group-hover:w-6 transition-all" />
             </button>
           </div>
         </div>

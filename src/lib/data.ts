@@ -102,12 +102,13 @@ export const NAV_LINKS = [
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "Education", href: "#education" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
   { name: "Github", url: "https://github.com/0MarufHasan0" },
   { name: "Linkedin", url: "https://www.linkedin.com/in/md-maruf-hasann/" },
-  { name: "Facebook", url: "https://facebook.com" },
+  { name: "Facebook", url: "https://www.facebook.com/share/1CSRTeapaW/" },
   { name: "Resume", url: "/cv.pdf", isDownload: true },
 ];
 
@@ -116,7 +117,8 @@ export const MENU_LINKS: MenuLink[] = [
   { name: "About Me", href: "#about", dotColor: "#3B82F6" },
   { name: "Skills", href: "#skills", dotColor: "#14B8A6" },
   { name: "Projects", href: "#projects", dotColor: "#6366F1" },
-  { name: "Education", href: "#education", dotColor: "#00FF41" },
+  { name: "Education", href: "#education", dotColor: "#A855F7" },
+  { name: "Contact", href: "#contact", dotColor: "#C6FF00" },
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
@@ -137,7 +139,9 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: [
       { name: "Node.js", iconName: "SiNodedotjs", color: "#5FA04E" },
       { name: "Express.js", iconName: "SiExpress", color: "#FFFFFF" },
-      { name: "REST API", iconName: "TbApi", color: "#00FF41" },
+      { name: "MongoDB", iconName: "SiMongodb", color: "#47A248" },
+      { name: "Better Auth", iconName: "ShieldCheck", color: "#FF5722" },
+      { name: "REST API", iconName: "TbApi", color: "#C6FF00" },
     ],
   },
   {

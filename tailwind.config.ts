@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         darkBg: "#212121",
         panelBg: "#333333",
-        accentGreen: "#00FF41",
+        accentGreen: "#C6FF00",
         textWhite: "#FFFFFF",
         textBody: "#D0D0D0",
         textMuted: "#8C8C8C",

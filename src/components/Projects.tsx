@@ -104,7 +104,7 @@ export default function Projects() {
                       <ArrowUpRight
                         className={`w-6 h-6 stroke-[1.8] transition-all duration-200 ${
                           isHovered
-                            ? "text-[#00FF41] translate-x-1 -translate-y-1 opacity-100"
+                            ? "text-[#C6FF00] translate-x-1 -translate-y-1 opacity-100"
                             : "text-[#555555] opacity-0"
                         }`}
                       />
@@ -137,7 +137,7 @@ export default function Projects() {
                           href={project.liveUrl}
                           target="_blank"
                           rel="noreferrer"
-                          className="inline-flex items-center gap-1 text-[#00FF41] hover:underline uppercase tracking-wider"
+                          className="inline-flex items-center gap-1 text-[#C6FF00] hover:underline uppercase tracking-wider"
                         >
                           <span>Live Demo</span>
                           <ArrowUpRight className="w-3.5 h-3.5" />
@@ -230,10 +230,10 @@ export default function Projects() {
                 rel="noreferrer"
                 className="flex items-center justify-between group"
               >
-                <h4 className="font-anton text-4xl text-white uppercase tracking-wide group-hover:text-[#00FF41] transition-colors">
+                <h4 className="font-anton text-4xl text-white uppercase tracking-wide group-hover:text-[#C6FF00] transition-colors">
                   {project.title}
                 </h4>
-                <ArrowUpRight className="w-5 h-5 text-[#00FF41]" />
+                <ArrowUpRight className="w-5 h-5 text-[#C6FF00]" />
               </a>
 
               {/* Tech Tags */}
@@ -255,7 +255,7 @@ export default function Projects() {
                     href={project.liveUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 border border-[#00FF41] text-[#00FF41] text-xs font-mono uppercase tracking-wider hover:bg-[#00FF41] hover:text-[#212121] transition-all"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 border border-[#C6FF00] text-[#C6FF00] text-xs font-mono uppercase tracking-wider hover:bg-[#C6FF00] hover:text-[#212121] transition-all"
                   >
                     <span>Live Demo</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
